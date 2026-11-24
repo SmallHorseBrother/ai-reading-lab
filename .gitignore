@@ -1,0 +1,33 @@
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+config.local.*
+.streamlit/secrets.toml
+secrets/
+
+# Private books and learning records
+library/
+data/
+state.json
+study_notes.md
+
+# Local environments, caches and build outputs
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+build/
+dist/
+.coverage
+htmlcov/
+*.log
+.DS_Store
+Thumbs.db
+
+# External repositories belong outside this source tree
+projects/
+workspaces/
+cache/
